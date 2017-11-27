@@ -1,0 +1,7 @@
+#FOLDERS
+/.sass-cache
+
+#FILES
+.DS_STORE
+thumbs.db
+screenshot.png
