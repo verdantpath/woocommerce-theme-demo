@@ -1,5 +1,6 @@
 #FOLDERS
 /.sass-cache
+/css
 
 #FILES
 .DS_STORE
