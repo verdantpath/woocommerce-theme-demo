@@ -21,6 +21,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 
-<section class="row">
-
-</section>
+<section class="row"></section>
