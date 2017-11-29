@@ -7,7 +7,7 @@ Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, white, light, one-column, two-columns, left-sidebar, fluid-layout, responsive-layout, custom-menu, featured-images
- 
+
 At Treehouse we believe that you should reach for your dreams.
 You are welcome to use this theme privately or commercially you want to help accomplish those dreams!
 */
@@ -161,7 +161,7 @@ header h1 a {
   -o-border-radius: 2px;
   border-radius: 2px;
   color: white;
-  display: block;  
+  display: block;
   float: left;
   height: 60px;
   margin: 0;
@@ -179,7 +179,7 @@ header h1 a:hover {
   background: #2d3339;
   color: white;
 }
-header nav h1.open {  
+header nav h1.open {
   z-index: 101;
 }
 .logged-in header nav h1.open {
@@ -424,7 +424,7 @@ footer p {
   line-height: 20px;
   text-align: center;
 }
-@media all and (min-width: 40.063em) {  
+@media all and (min-width: 40.063em) {
   footer p {
     float: right;
     width: auto;
@@ -990,4 +990,14 @@ ol.children {
 }
 .article-list .articles > li {
   margin: 20px 0 50px;
+}
+
+/* WooCommerce Styles */
+
+.woocommerce .woocommerce-breadcrumb {
+  padding-left: 10px;
+}
+.woocommerce .woocommerce-result-count,
+.woocommerce-page .woocommerce-result-count {
+  float: right;
 }
