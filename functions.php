@@ -5,6 +5,8 @@ add_theme_support( 'post-thumbnails' );
 add_theme_support( 'title-tag' );
 add_theme_support( 'woocommerce' );
 
+remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30);
+
 function wpt_excerpt_length( $length ) {
 	return 16;
 }
