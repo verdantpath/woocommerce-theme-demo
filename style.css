@@ -1055,3 +1055,11 @@ ol.children {
   left: 0;
   font-size: 1.6rem;
 }
+.woocommerce div.product div.images .woocommerce-product-gallery__image:nth-child(n+2) {
+  float: right;
+}
+.woocommerce div.product div.images .woocommerce-product-gallery__image {
+  float: left;
+  width: 75%;
+  padding: 5px;
+}
