@@ -1055,6 +1055,9 @@ ol.children {
   left: 0;
   font-size: 1.6rem;
 }
+
+/* fixes and hacks */
+
 .woocommerce div.product div.images .woocommerce-product-gallery__image:nth-child(n+2) {
   float: right;
 }
