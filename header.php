@@ -9,12 +9,12 @@
 
   <body <?php  body_class(); ?>>
     <header class="row no-max pad main">
-  <h1><a class='current' href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
+  <h1 data-test="test"><a class='current' href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
   <a href="" class="nav-toggle"><span></span>Menu</a>
   <nav id="main-menu">
     <h1 class="open"><a class='current' href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
-      
-    <?php 
+
+    <?php
 
       $defaults = array(
         'container' => false,
