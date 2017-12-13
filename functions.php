@@ -17,6 +17,14 @@ remove_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_l
 
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10 );
 
+// add reviews under main image gallery
+
+add_action( 'woocommerce_before_single_product_summary', 'comments_template', 30);
+
+// remove tabs section
+
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10 );
+
 function wpt_excerpt_length( $length ) {
 	return 16;
 }
