@@ -1092,3 +1092,21 @@ ol.children {
   margin: 0;
   margin-right: 4px;
 }
+.single-product #reviews #comments h2 {
+  display: none;
+}
+.woocommerce #reviews #comments ol.commentlist li img.avatar {
+  float: right;
+  width: 18%;
+  position: relative;
+}
+.woocommerce #reviews #comments ol.commentlist li .comment-text {
+  float: left;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.single-product #reviews #comments ol.commentlist li .comment-text p.meta {
+  font-size: 1rem;
+}
