@@ -1110,3 +1110,26 @@ ol.children {
 .single-product #reviews #comments ol.commentlist li .comment-text p.meta {
   font-size: 1rem;
 }
+p.woocommerce-verification-required {
+  font-size: .8rem;
+  color: #999;
+  font-size: italic;
+}
+.single-product .related.products h2 {
+  font-size: 1.4rem;
+  margin: 40px 0 10px;
+}
+.single-product .related.products ul.products li.product {
+  width: 44%;
+}
+.single-product .related.products ul.products li.product a img {
+  margin-bottom: 0;
+}
+.single-product .related.products h3 {
+  font-weight: normal;
+}
+.single-product .related.products .price,
+.single-product .related.products .button,
+.single-product .related.products .onsale {
+  display: none !important;
+}
