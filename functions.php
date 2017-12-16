@@ -33,6 +33,19 @@ remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_upsell_d
 
 // remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20);
 
+add_action( 'wpt_footer', 'wpt_footer_cart_link' );
+
+function wpt_footer_cart_link() {
+
+	global $woocommerce;
+
+	if ( ( sizeof( $woocommerce->cart->cart_contents ) > 0 ) && ( !is_cart() && !is_checkout() ) ) :
+		echo '<a class="btn alt" href="' . $woocommerce->cart->get_cart_url() . '" title="' . __( 'Cart' ) . '">' . __( 'Cart' ) . '</a>';
+
+		echo '<a class="btn" href="' . $woocommerce->cart->get_checkout_url() . '" title="' . __( 'Checkout' ) . '">' . __( 'Checkout' ) . '</a>';
+	endif;
+}
+
 
 function wpt_excerpt_length( $length ) {
 	return 16;
