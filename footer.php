@@ -5,8 +5,8 @@
     <p>Copyright <?php echo date('Y'); ?></p>
   </div>
   <div class="small-12 medium-6 columns right">
-    <?php do_action( 'wpt_footer' ); ?>
-  </div>
+		<p><?php do_action( 'wpt_footer' ); ?></p>
+	</div>
 </footer>
 
   <?php wp_footer(); ?>
