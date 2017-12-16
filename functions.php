@@ -44,6 +44,7 @@ function wpt_footer_cart_link() {
 
 		echo '<a class="btn" href="' . $woocommerce->cart->get_checkout_url() . '" title="' . __( 'Checkout' ) . '">' . __( 'Checkout' ) . '</a>';
 	endif;
+	// echo "test";
 }
 
 
