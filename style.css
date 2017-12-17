@@ -1133,3 +1133,35 @@ p.woocommerce-verification-required {
 .single-product .related.products .onsale {
   display: none !important;
 }
+
+/* Cart Styles */
+
+footer .right {
+  text-align: right;
+}
+footer .right p {
+  float: right;
+}
+footer a.btn {
+  font-size: .8rem;
+  margin-left: 5px;
+  border: 1px #384047;
+  color: white;
+  padding: 12px 18px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  box-shadow: none;
+}
+footer a.btn.alt {
+  background-color: white;
+  border-color: #ccc;
+  color: #222;
+}
+@media all and (min-width: 40.063em) {
+  nav#main-nav li:last-child {
+    display: none;
+  }
+}
