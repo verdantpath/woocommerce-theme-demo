@@ -585,7 +585,7 @@ footer .social-links {
   }
 }
 
-label {
+/* label {
   display: block;
   font-size: 1.8em;
   margin: 0 0 10px;
@@ -714,7 +714,7 @@ input#s {
 }
 .form-item.error .message.error {
   color: #ed5a5a;
-}
+} */
 
 .contact-form {
   border-top: 1px solid #edeff0;
@@ -1164,4 +1164,77 @@ footer a.btn.alt {
   nav#main-nav li:last-child {
     display: none;
   }
+}
+.woocommerce-cart table.cart img {
+  width: 64px;
+}
+.woocommerce-cart table td.product-name {
+  font-size: 1rem;
+}
+.woocommerce table.shop_table {
+  font-size: 140%;
+}
+label {
+  text-align: left;
+}
+input[type=text],
+input[type=email],
+textarea {
+  background: white;
+  color: #384047;
+  display: block;
+  font-size: 1em;
+  line-height: 2em;
+  padding: 10px;
+  width: 100%;
+  -webkit-box-shadow: insert 0 0 0 2px #d1d6d9;
+  -moz-box-shadow: insert 0 0 0 2px #d1d6d9;
+  box-shadow: insert 0 0 0 2px #d1d6d9;
+  -webkit-transition: box-shadow 200ms ease-in-out;
+  -moz-transition: box-shadow 200ms ease-in-out;
+  -o-transition: box-shadow 200ms ease-in-out;
+  transition: box-shadow 200ms ease-in-out;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+textarea {
+  border: 1px #ccc solid;
+}
+input[type=text]:hover,
+input[type=email]:hover,
+textarea:hover {
+   -webkit-box-shadow: insert 0 0 0 2px #9aa5aa;
+  -moz-box-shadow: insert 0 0 0 2px #9aa5aa;
+  box-shadow: insert 0 0 0 2px #9aa5aa;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus {
+   -webkit-box-shadow: insert 0 0 0 2px #384047;
+  -moz-box-shadow: insert 0 0 0 2px #384047;
+  box-shadow: insert 0 0 0 2px #384047;
+}
+.woocommerce-cart .cross-sells h2 {
+  font-size: 1.2rem;
+  text-align: left;
+}
+.woocommerce-cart .cart-collaterals .cart_totals table {
+  width: 100%
+}
+a.shipping-calculator-button {
+  font-size: 1rem;
+  text-decoration: underline;
+}
+.woocommerce-cart .cart_totals h2 {
+  display: none;
+}
+.woocommerce-cart .cart_totals table {
+  font-size: 140%;
+}
+.woocommerce-cart .variation p {
+    font-size: 1rem;
+}
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
+  font-size: 1.4rem;
 }
