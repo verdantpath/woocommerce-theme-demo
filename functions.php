@@ -47,6 +47,10 @@ function wpt_footer_cart_link() {
 	// echo "test";
 }
 
+function wpt_custom_billing_fields( $fields = array() ) {
+	return $fields;
+}
+add_filter( 'woocommerce_billing_fields', 'wpt_custom_billing_fields' );
 
 function wpt_excerpt_length( $length ) {
 	return 16;
