@@ -1238,3 +1238,7 @@ a.shipping-calculator-button {
 .woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
   font-size: 1.4rem;
 }
+.woocommerce form .form-row-last,
+.woocommerce-page form .form-row-last {
+  width: 100%;
+}
