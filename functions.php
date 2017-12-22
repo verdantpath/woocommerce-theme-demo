@@ -48,6 +48,9 @@ function wpt_footer_cart_link() {
 }
 
 function wpt_custom_billing_fields( $fields = array() ) {
+	echo "<pre>";
+	var_export($fields);
+	echo "</pre>";
 	return $fields;
 }
 add_filter( 'woocommerce_billing_fields', 'wpt_custom_billing_fields' );
