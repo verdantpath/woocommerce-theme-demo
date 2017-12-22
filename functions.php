@@ -48,8 +48,15 @@ function wpt_footer_cart_link() {
 }
 
 function wpt_custom_billing_fields( $fields = array() ) {
+
+	unset( $fields['billing_company'] );
+	unset( $fields['billing_address_1'] );
+	unset( $fields['billing_address_2'] );
+	unset( $fields['billing_city'] );
+	unset( $fields['billing_state'] );
+	unset( $fields['billing_phone'] );
 	echo "<pre>";
-	var_export($fields);
+	// var_export($fields);
 	echo "</pre>";
 	return $fields;
 }
