@@ -29,6 +29,14 @@ remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_p
 
 remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_upsell_display', 15);
 
+// remove login form from checkout page
+
+remove_action( 'woocommerce_before_checkout_form', 'woocommerce_checkout_login_form', 10);
+
+// remove coupon form from checkout page
+
+remove_action( 'woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form', 10);
+
 // remove related product section
 
 // remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20);
