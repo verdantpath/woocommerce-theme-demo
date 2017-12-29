@@ -58,7 +58,8 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 
 	<div id="order_review" class="woocommerce-checkout-review-order">
 		<?php
-		
+		global $wp_filter;
+		var_export( $wp_filter['woocommerce_checkout_order_review'] );
 		 do_action( 'woocommerce_checkout_order_review' );
 		 ?>
 	</div>
