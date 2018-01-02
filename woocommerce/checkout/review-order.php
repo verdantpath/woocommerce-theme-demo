@@ -35,7 +35,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 				}
 				?>
 			</th>
-			<th class="product-total"><?php _e( 'Total', 'woocommerce' ); ?></th>
+			<th class="product-total">
+				<?php _e( 'Total', 'woocommerce' ); ?>
+			</th>
 		</tr>
 	</thead>
 
