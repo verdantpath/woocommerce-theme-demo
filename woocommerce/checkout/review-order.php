@@ -28,10 +28,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 				$total_items = WC()->cart->cart_contents_count;
 				if( $total_items == 1 ) {
 					echo $total_items;
-					_e( 'Product', 'woocommerce' );
+					_e( ' Product', 'woocommerce' );
 				} else {
 					echo $total_items;
-					_e( 'Products', 'woocommerce' );
+					_e( ' Products', 'woocommerce' );
 				}
 				?>
 			</th>
