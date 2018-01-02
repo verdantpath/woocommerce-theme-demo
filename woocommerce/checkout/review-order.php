@@ -27,12 +27,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<?php
 				$total_items = WC()->cart->cart_contents_count;
 				if( $total_items == 1 ) {
+					echo $total_items;
 					_e( 'Product', 'woocommerce' );
 				} else {
+					echo $total_items;
 					_e( 'Products', 'woocommerce' );
 				}
 				?>
-				<?php _e( 'Product', 'woocommerce' ); ?>
 			</th>
 			<th class="product-total"><?php _e( 'Total', 'woocommerce' ); ?></th>
 		</tr>
