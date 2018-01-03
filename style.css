@@ -1243,3 +1243,22 @@ a.shipping-calculator-button {
 .woocommerce-page form .form-row-last {
   width: 100%;
 }
+
+/* Checkout */
+
+p#billing_postcode_field + .clear {
+  display: none;
+}
+.woocommerce-checkout input.button[type=submit] {
+  font-size: 200%;
+}
+address {
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+.woocommerce-account .address .title h3 {
+  float: none;
+}
+.woocommerce-message {
+  font-size: 1rem;
+}
